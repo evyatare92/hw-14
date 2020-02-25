@@ -1,0 +1,7 @@
+---
+
+
+  - name: Template a file to another place
+    template:
+        src: get_hostname.j2
+        dest: /tmp/test2
